@@ -3,15 +3,16 @@
   "workbench.colorTheme": "Dracula",
 
   // Configura tamanho e família da fonte
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.lineHeight": 24,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   
   // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-  "editor.rulers": [80, 120],
-  "editor.formatOnSave": false,
+  "editor.rulers": [80, 120,160],
+  
+  "editor.formatOnSave": false, 
 
   "eslint.packageManager": "yarn",
   
@@ -46,7 +47,8 @@
   "editor.renderLineHighlight": "gutter",
 
   // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
 
   // Define o tema dos ícones na sidebar
   "workbench.iconTheme": "material-icon-theme",
@@ -68,9 +70,7 @@
   "git.enableSmartCommit": true,
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "explorer.confirmDragAndDrop": false,
-  "liveshare.featureSet": "insiders",
   "explorer.confirmDelete": false,
 
   "typescript.tsserver.log": "verbose",
@@ -78,8 +78,5 @@
   "typescript.suggest.autoImports": false,
   "workbench.activityBar.visible": true,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.autoSave": "afterDelay",
-  "liveServer.settings.donotShowInfoMsg": true,
-  
 }
